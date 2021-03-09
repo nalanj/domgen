@@ -1,0 +1,31 @@
+{
+  "name": "domgen",
+  "version": "0.0.1",
+  "description": "DOM generation library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "build": "babel --extensions '.ts' index.ts --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nalanj/domgen.git"
+  },
+  "keywords": [
+    "dom"
+  ],
+  "author": "Alan Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nalanj/domgen/issues"
+  },
+  "homepage": "https://github.com/nalanj/domgen#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-typescript": "^7.13.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
